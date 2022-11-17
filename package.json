@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@pankod/refine-airtable": "^2.1.1",
+    "@pankod/refine-antd": "^3.62.0",
+    "@pankod/refine-core": "^3.88.1",
+    "@pankod/refine-react-hook-form": "^3.31.0",
+    "@pankod/refine-simple-rest": "^2.6.0",
+    "@pankod/refine-strapi": "^3.18.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "reset": "npm i @pankod/refine-strapi@3.18.0 @pankod/refine-simple-rest@2.6.0 @pankod/refine-airtable@2.1.1 @pankod/refine-core@3.88.1 @pankod/refine-react-hook-form@3.31.0 @pankod/refine-antd@latest --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
